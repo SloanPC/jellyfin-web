@@ -84,13 +84,6 @@ const config = {
                     }
                 },
                 {
-                    from: 'avatars/**',
-                    globOptions: {
-                        dot: true,
-                        ignore: ['**/css/*']
-                    }
-                },
-                {
                     from: 'seasonal/**',
                     globOptions: {
                         dot: true,
