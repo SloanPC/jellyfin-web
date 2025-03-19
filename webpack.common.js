@@ -130,11 +130,7 @@ const config = {
             typescript: {
                 configFile: path.resolve(__dirname, 'tsconfig.json')
             }
-        }),
-        // new HtmlWebpackTagsPlugin({
-        //     tags: ['/web/avatars/init_script.js', '/web/avatars/slideshowScript.js'], // Paths to external scripts
-        //     append: false,
-        //   }),
+        })
     ],
     output: {
         filename: pathData => (
